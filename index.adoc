@@ -1,0 +1,17 @@
+= PIC
+Delaby Pierre
+:icons: font
+:toc: left
+:nofooter:
+:source-highlighter: coderay
+:stylesdir: css/
+:stylesheet: asciidoctor.css
+
+
+== Liens
+
+* link:doc/[Doc]
+* Documentation http://100.74.54.165:8080/doc/
+* Jenkins http://100.74.54.165:8080/jenkins
+* Sonar http://100.74.54.165:8080/sonar
+* Tomcat http://100.74.54.165:8080/tomcat
