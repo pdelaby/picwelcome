@@ -6,6 +6,7 @@ Delaby Pierre
 :source-highlighter: coderay
 :stylesdir: css/
 :stylesheet: asciidoctor.css
+:revnumber: {project-version}
 
 
 == Liens
