@@ -3,6 +3,7 @@ pipeline {
     tools {
         maven 'M3' 
         jdk 'jdk8u125'
+		npm 'nodeJs'
     }
 	
     stages { 
@@ -20,21 +21,22 @@ pipeline {
 		
 		stage('Checkout'){
 			steps{
-				checkout scm
+				git "https://github.com/pdelaby/demo-rest-front.git"
 			}
 		}
   
-        stage('generate-resources'){
+        stage('Npm'){
             steps{
-				sh "mvn generate-resources"
+				sh "npm -v"
 			}
         }
 
-		stage('Deploy asciidoc'){
-			steps{
-				sh "cp -R target/generated-docs/* ${env.publicApacheRoot}"
-			}
-		}						
+    }
+	
+	post{
+        always{
+             cleanWs()
+        }
     }
    
 }
