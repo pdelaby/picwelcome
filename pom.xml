@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.pdy.fac.pic</groupId>
     <artifactId>picwelcome</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>PicWelcomePage</name>
     <description>Page d'accueil de la plateforme d'intégration continue</description>
 
